@@ -36,5 +36,5 @@ of1 = Outfit.create(top_id: 1, bottom_id: 3, shoe_id: 2, user_id: 1, likes: 2)
 of2 = Outfit.create(top_id: 3, bottom_id: 4, shoe_id: 1, user_id: 2, likes: 3)
 of1 = Outfit.create(top_id: 5, bottom_id: 2, shoe_id: 6, user_id: 1, likes: 0)
 
-cm1 = Comment.create(outfit_id: 1, user_id: 2, text: "I would wear this outfit everywhere! So cute!")
+cm1 = Comment.create(outfit_id: 1, user_id: 2, text: "I would wear this outfit everywhere! So cute!!")
 cm2 = Comment.create(outfit_id: 2, user_id: 1, text: "My go-to outfit for hanging out with my friends.")
