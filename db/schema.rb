@@ -41,6 +41,7 @@ ActiveRecord::Schema.define(version: 2020_04_10_170149) do
     t.bigint "shoe_id", null: false
     t.bigint "user_id", null: false
     t.integer "likes"
+    t.string "name"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["bottom_id"], name: "index_outfits_on_bottom_id"
