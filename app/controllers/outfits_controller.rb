@@ -10,7 +10,7 @@ class OutfitsController < ApplicationController
    end 
 
    def create
-      outfit = Outfit.create(comment_params)
+      outfit = Outfit.create(outfit_params)
       render json: outfit, except: [:updated_at], status:201
    end 
 
