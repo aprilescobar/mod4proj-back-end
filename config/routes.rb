@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :options
   resources :comments
   resources :outfits
   resources :users

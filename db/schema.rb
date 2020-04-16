@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_04_10_170149) do
+ActiveRecord::Schema.define(version: 2020_04_16_010441) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -33,6 +33,20 @@ ActiveRecord::Schema.define(version: 2020_04_10_170149) do
     t.datetime "updated_at", precision: 6, null: false
     t.index ["outfit_id"], name: "index_comments_on_outfit_id"
     t.index ["user_id"], name: "index_comments_on_user_id"
+  end
+
+  create_table "options", force: :cascade do |t|
+    t.bigint "user_id", null: false
+    t.integer "product_id"
+    t.string "brand"
+    t.string "name"
+    t.string "color"
+    t.string "description"
+    t.string "img_url"
+    t.string "category"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+    t.index ["user_id"], name: "index_options_on_user_id"
   end
 
   create_table "outfits", force: :cascade do |t|
@@ -79,6 +93,7 @@ ActiveRecord::Schema.define(version: 2020_04_10_170149) do
 
   add_foreign_key "comments", "outfits"
   add_foreign_key "comments", "users"
+  add_foreign_key "options", "users"
   add_foreign_key "outfits", "bottoms"
   add_foreign_key "outfits", "shoes"
   add_foreign_key "outfits", "tops"
