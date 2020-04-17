@@ -1,7 +1,7 @@
 class CommentsController < ApplicationController
    def index
       comments = Comment.all
-      render json: comments, except: [:updated_at], include: [:user]
+      render json: comments, except: [:updated_at], include: [:user, :outfit]
    end 
 
    def show 
