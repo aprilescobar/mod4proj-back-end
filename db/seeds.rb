@@ -98,7 +98,7 @@ ws7 = Shoe.create(brand: "Nike", name: "Nike Air Max 270 React", color: "Purple"
 ws8 = Shoe.create(brand: "Nike", name: "Nike Air VaporMax Flyknit 3", color: "Black", description: "womens", img_url: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/vs0xhpqdhbrdoc4oodsk/air-vapormax-flyknit-3-womens-shoe-ZHCbvC.jpg")
 ws9 = Shoe.create(brand: "Nike", name: "Nike Air VaporMax Flyknit 3", color: "Light Violet", description: "womens", img_url: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/90e19b54-2ab0-42f0-9024-e5210b234073/air-vapormax-flyknit-3-womens-shoe-ZHCbvC.jpg")
 
-ws10 = Shoe.create(brand: "Nike", name: "Nike Vista Lite", color: "Black", description: "womens", img_url: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/ad1e7843-3848-4fa3-8497-1ff525ffe703/vista-lite-womens-shoe-VFKnkk.jpg")
+ws10 = Shoe.create(brand: "Nike", name: "Nike-Pre Love O.X.", color: "White", description: "womens", img_url: "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/uauihtopmb2kmngbpmgz/pre-love-ox-womens-shoe-M0Wtf1.jpg")
 ws11 = Shoe.create(brand: "Nike", name: "Nike Classic Cortez", color: "White/Black", description: "womens", img_url: "https://c.static-nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/vzizyfpl81zkpyiwugwe/classic-cortez-womens-shoe-pvTlepy3.jpg")
 ws12 = Shoe.create(brand: "Nike", name: "Nike React Element", color: "Grey/Red", description: "womens", img_url: "https://static.nike.com/a/images/t_PDP_1728_v1/f_auto,b_rgb:f5f5f5/wuqxfbzqnhkeg945gfcx/react-element-55-womens-shoe-FWmTr9.jpg")
 
